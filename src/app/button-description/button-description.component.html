@@ -1,0 +1,43 @@
+
+<div class=" button-types">
+
+  <h1>Button</h1>
+  <p>The &lt;button&gt; tag defines a clickable button.
+
+      Inside a &lt;button&gt; element you can put content, like text or images. This is the difference between this element and buttons created with the &lt;input&gt; element.</p>
+
+<div class="buttons-class">
+  <div>
+    <button (click)="getPrimary()">Primary</button>
+  </div>
+  <div>
+    <button (click)="getPartial()">Partial</button>
+  </div>
+  <div>
+    <button (click)="getNotAvailable()">NotAvailaible</button>
+  </div>
+
+  </div>
+ 
+ <!-- <app-buttontype [bdescription]="btype">-->
+<div class="buttons-demo-class">
+ <div class="primary-button" *ngIf=primary>
+     <div class="button-primary-demo">
+         <button type="button" class="btn btn-success">Success</button>
+         <p>&lt;button type="button" class="btn btn-success"&gt;Success&lt;/button&gt;</p>
+     </div>
+</div>
+<div class="partial-button" *ngIf=partial>
+    <div class="button-partial-demo">
+         <button>Partially Available</button>
+         <p>&lt;button Partially Available&lt;/button&gt;</p>
+    </div>
+</div>
+<div class="notavailaible-button" *ngIf=notAvailable>
+  <div class="button-notavailable-demo">
+     <button type="button" class="btn btn-danger">Not Available</button>
+     <p>&lt;button type="button" class="btn btn-danger"&gt;Not Available&lt;/button&gt;</p>
+  </div>
+</div>
+</div>
+</div>

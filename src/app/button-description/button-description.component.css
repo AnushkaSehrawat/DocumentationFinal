@@ -1,0 +1,72 @@
+.button-types p {
+  
+  width: 80%; 
+  margin: 0 auto;
+  /*height: 10%;*/
+  margin-top: 25px;
+}
+.button-types{
+  display: flex;
+
+}
+a {
+  text-decoration: none;
+}
+.buttons-class {
+	margin-top: 50px;
+	display: flex;
+
+	
+}
+.buttons-class button {
+    width: 200px;
+}
+.button-partial-demo button {
+	background-color: yellow;
+}
+.button-types {
+	display: block;
+}
+
+.button-primary-demo button {
+		margin-top: 50px;
+		margin-left: 35%;
+}
+.button-partial-demo button {
+		margin-top: 50px;
+		margin-left: 35%;
+}
+.button-notavailable-demo button {
+		margin-top: 50px;
+		margin-left: 35%;
+}
+button:hover {
+     background-color: #7CA7D8;
+     ;
+}
+@media only screen and (max-width: 600px) {
+.buttons-class{
+    flex-direction: column;
+   
+}
+.buttons-class div{
+	 margin:0 auto;
+	 width: 100px;
+}
+.buttons-class button{
+	 
+	 width: 100px;
+}
+
+}
+@media only screen and (max-width: 814px){
+
+	.buttons-class{
+    flex-direction: column;
+  
+}
+.buttons-class div{
+  margin:0 auto;
+  	 width: 100px;
+}
+}
